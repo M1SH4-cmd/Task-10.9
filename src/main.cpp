@@ -12,7 +12,7 @@ int main()
     }
     else if (b > 0)
     {
-        float discriminant = b * c - 4 * a * b;
+        float discriminant = (b * b) - (4 * (a * c));
 
     if (discriminant > 1)
     {
