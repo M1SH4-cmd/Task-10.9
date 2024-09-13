@@ -17,12 +17,12 @@ int main()
     if (discriminant > 1)
     {
         float x1 = (-b + sqrt(discriminant)) / (2 * a);
-        float x2 = (-b + sqrt(discriminant)) / (2 * a);
+        float x2 = (-b - sqrt(discriminant)) / (2 * a);
         cout << "Root 1: " << x1 << "Root 2: " << x2 << "\n";
     }
     else if (discriminant == 0)
     {
-        float x = b + sqrt(discriminant * discriminant) / (2 * a);
+        float x = - b / (2 * a);
         cout << "Root: " << discriminant << endl;
     }
     else
